@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PiedPiper</title>
+    <meta name="author" content="Stefano Di Gregorio">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport gives browser instructions for control of dimensions + scaling
+     width=device-width sets the page width to width of display
+     initial scale = 1.0 sets the initial zoom of the page-->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- link to main stylesheet -->
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <a onclick="openNav()"></a>
+            <div id="menuButton">MENU</div>
+            <a href="../HTML/index.html">
+                <div id="logInButton">BACK</div>
+            </a>
+            <div class="red"></div>
+            <div class="titleLable">PIED PIPER</div>
+            <div class="gray"></div>
+            <div id="menuButton2">MENU</div>
+            <a href="../HTML/index.html">
+                <div id="logInButton2">BACK</div>
+            </a>
+        </header>
+
+
+
+        <div class="row">
+            <div class="col-6">
+                <a onclick="openPane1()">
+                    <section class="paneOption">LOG IN</section>
+                </a>
+            </div>
+            <div class="col-6">
+                <a onclick="openPane2()">
+                    <section class="paneOption">SIGN UP</section>
+                </a>
+            </div>
+        </div>
+        <section id="pane1">
+            <div class="row">
+                <br>
+                <div class="col-12">
+                    <center><div class="form">
+                        <form>
+                            <div class="title">Enter your log in details bellow</div>
+                            <input placeholder="Twitter handle (include '@')"><br>
+                            <input placeholder="Password" type="password"><br>
+                            <button>LOG IN</button>
+                        </form>
+                        
+                    </div></center>
+                </div>
+            </div>
+        </section>
+
+        <section id="pane2">
+            <div class="row">
+                <br>
+                <div class="col-12">
+                    <center><div class="form">
+                        <form>
+                            <div class="title">Register your  details bellow</div>
+                            <input placeholder="Twitter handle (include '@')"><br>
+                            <input placeholder="Email" type=email><br>
+                            <input placeholder="Password" type="password"><br>
+                            <input placeholder="Re-enter password" type="password"><br>
+                            <button>SIGN UP</button>
+                        </form>
+                        
+                    </div></center>
+                </div>
+            </div>
+        </section>
+
+        <section id="pane3">
+        </section>
+
+        <footer>
+            <p>&copy; Stefano Di Gregorio, 2017</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="../JAVASCRIPT/contetntSwitchScript.js"></script>
+
+</body>
+
+</html>

@@ -102,57 +102,18 @@ header p {
     font-size: 0.4em;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #f1f1f1;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: rgb(100, 100, 100);
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#main {
-    transition: margin-left 0.5s;
-}
-
-article {
-    
-}
+article {}
 
 section {}
 
-aside {
+aside{
     padding: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
     font-style: normal;
     text-align: left;
     display: table;
+    background-color: rgb(255,255,255);
 }
 
 aside p {
@@ -177,37 +138,42 @@ footer {
     text-align: center;
 }
 
-.titleQuestion {
+.paneOption {
     background-color: rgb(255, 255, 255);
     font-style: italic;
-    padding: 20px 10px 20px 10px;
+    padding: 18px 10px 18px 10px;
     font-weight: 600;
     font-size: 1.18em;
     text-align: center;
+    text-decoration: underline;
 
 }
 
-.titleQuestion:hover {
+.paneOption:hover {
     cursor: pointer;
 }
-
-#menuIcon{
-    margin-top: 70px;
-    position: absolute;
+.form{
+    color: rgb(255,255,255);
+    background-color: rgba(30, 30, 30, 1); 
+    margin: 0px, 20%, 0px, 20%;
+    padding: 15px;
 }
-
-.menuIconBar {
-    position: relative;
-    width: 60px;
-    height: 12px;
-    background-color: rgb(255, 255, 255);
-    margin: 7px;
+input{
+    padding: 20px;
+    width: 350px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border-radius: 4px;
 }
-
 button {
+    text-align: center;
     margin: 10px;
-    padding: 40px;
-    border: solid 4px
+    padding: 30px;
+    border-radius: 4px;
+    width: 250px;
+    font-size: 1.18em;
+    font-weight: 600;
+    background-color: 
 }
 
 #pane1 {
