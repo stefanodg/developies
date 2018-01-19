@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="author" content="Stefano Di Gregorio">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport gives browser instructions for control of dimensions + scaling
+     width=device-width sets the page width to width of display
+     initial scale = 1.0 sets the initial zoom of the page-->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- link to main stylesheet -->
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <a onclick="openNav()"></a>
+            <div id="menuButton">MENU</div>
+            <a href="../HTML/login.html"><div id="logInButton">LOG IN</div></a>
+            <div class="red"></div>
+            <div class="titleLable">PIEDPIPER</div>
+            <div class="gray"></div>
+            <div id="menuButton2">MENU</div>
+            <a href="../HTML/login.html"><div id="logInButton2">LOG IN</div></a>
+        </header>
+
+        <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../HTML/index.html">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+
+
+        <div class="row">
+            <div class="col-4">
+                <a onclick="openPane1()">
+                    <section></section>
+                </a>
+            </div>
+            <div class="col-4">
+                <a onclick="openPane2()">
+                    <section></section>
+                </a>
+            </div>
+            <div class="col-4">
+                <a onclick="openPane3()">
+                    <section></section>
+                </a>
+            </div>
+        </div>
+        <section id="pane1">
+            <div class="row">
+                <div class="col-1">
+                </div>
+                <div class="col-4">
+                    <img src="../IMAGES/pieSample.jpg" >
+                </div>
+                <div class="col-4">
+                    <div class="titleQuestion">BUY OUR PIES NOW!</div>
+                    <div class="titleQuestion">Mauris dictum tincidunt velit a malesuada. Donec fermentum massa ut risus lobortis vehicula. Curabitur commodo sodales mauris et luctus. Donec enim orci, dignissim a ultrices suscipit, tristique eu lorem. Fusce et ultrices ligula, in tincidunt nisi. </div>
+                </div>
+                <div class="col-4">
+                    <img src="../IMAGES/pieSample.jpg">
+                </div>
+                
+                <div class="col-1">
+                </div>
+            </div>
+        </section>
+
+        <section id="pane2">
+        </section>
+
+        <section id="pane3">
+        </section>
+
+        <footer>
+            <p>&copy; Stefano Di Gregorio, 2017</p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="../JAVASCRIPT/navScript.js"></script>
+    <script type="text/javascript" src="../JAVASCRIPT/contetntSwitchScript.js"></script>
+    <script>
+
+
+    </script>
+
+</body>
+
+</html>
